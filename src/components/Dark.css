@@ -1,0 +1,419 @@
+*{
+    font-family: 'Albert Sans', sans-serif;
+
+}
+body{
+    /* background-color: #141D2F; */
+
+display: flex;
+justify-content: center;
+}
+
+.darkmainContainer{
+    width: 50vw;
+    height:95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.darkchildContainer{
+    width: 95%;
+    height: 90vh;
+}
+header{
+width: 100%;
+height: 60px;
+
+}
+.darkheaderSection{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.darklogo{
+    font-weight: 900;
+    font-size: 1.6rem;
+    font-family: 'Albert Sans', sans-serif;
+font-family: 'Space Mono', monospace;
+color: white;
+}
+.darkdarkMode{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+    
+}
+.darkmoon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 21px;
+    color: gray;
+}
+.darkmodeChanger{
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+/* search seqciaaa//////// */
+
+
+.darksearchSection{
+    width: 100%;
+    height: 70px;
+    background-color: #1E2A47;
+    border-radius: 15px;
+position: relative;
+}
+
+.darkinputsection{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1E2A47;
+    border-radius:15px ;
+
+    
+}
+.darklightInput{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: none;
+    font-size:2rem;
+    outline: none;
+    padding-left: 50px;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    background-color: #1E2A47;
+
+
+}
+.darkloopIcon{
+    position: absolute;
+    left: 11px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.darksearchError{
+    font-size: 1.2rem;
+    color: red;
+    width: 50%;
+    white-space: nowrap;
+    font-weight: 900;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    pointer-events: none;
+pointer-events: none;
+display: none;
+}
+
+.darksearchButton{
+    background-color: #60ABFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 7px;
+    transition: 0.5s ease;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.darksearchButton:hover{
+    background-color: #378ff3;
+    color: white;
+}
+
+/* profilie section  */
+
+
+
+.darkprofileSection{
+    width: 100%;
+    height:64vh;
+    margin-top: 40px;
+    border-radius:15px ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E2A47;
+
+ 
+}
+    
+.darkimageSide{
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.darkimageSide img{
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+}
+.darkpersonSide{
+    width:70%;
+    height: 65vh;
+}
+.darkpersonTextarea{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px ;
+}
+.darkpersonTextarea h1{
+    line-height:24px;
+    font-family: 'Albert Sans', sans-serif;
+font-family: 'Space Mono', monospace;
+}
+.name{
+    font-size: 1.1rem;
+    color: #60ABFF;
+    font-weight: 100;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.created{
+font-family: 'Space Mono', monospace;
+font-size: 15px;
+ white-space: nowrap;
+
+    color: white;
+}
+.darkloremText{
+   height: 120px;
+   display: flex;
+   align-items: center;
+  
+}
+.darkloremText{
+    text-align: center;
+}
+.darkloremText p{
+    font-weight: 300;
+    color:#4B6A9B;
+    font-family: 'Albert Sans', sanserif;
+    font-family: 'Space Mono', monospace;
+    font-size: 14.3px;
+}
+.darkfollowers{
+    width: 100%;
+    height: 90px;
+    background-color: #141D2F;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.darkfollowers p{
+    color: white;
+    font-weight: 300;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.darkfollowers p span{
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: white;
+}
+
+
+.darkicon{
+    width: 20px;
+    height: 40px;
+}
+.darklocationSection{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: wrap;
+    
+}
+.darkcontrol{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    white-space: nowrap;
+
+   
+}
+
+
+.darklinksSection p{
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    width: 86%;
+
+    
+}
+.darkusername{
+    color: white;
+}
+.darklinksSection{
+   display: flex;
+   align-items: center;
+    width: 100%;
+    height: 22vh;
+
+
+}
+.darkleftSide{
+    width: 50%;
+}
+.darkrightSide{
+    width: 50%;
+}
+
+.darkiconLink a{
+    
+    white-space: nowrap;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    width: 82%;
+}
+.darkiconLink a:hover{
+    text-decoration: underline;
+}
+
+.darktwitterSection{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    white-space: nowrap;
+}
+.darktwitterSection p{
+    color: #9c9fa3;
+
+}
+.darkgithubSection{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    white-space: nowrap;
+}
+
+
+@media only screen and (max-width:1100px  ){
+    .darkmainContainer{
+
+        width: 64vw;
+    }
+ 
+    .darkprofileSection{
+        width: 100%;
+        height: 112vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .darkpersonTextarea{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+    }
+    .darkpersonTextarea span{
+        padding-left: 42px;
+    }
+.darkusername{
+    line-height: 22px;
+    height:79px;
+}
+.darkusername span{
+    padding-left: 70px;
+
+}
+
+    .darklinksSection{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+   
+  
+}
+@media only screen and (max-width:600px  ){
+    body{
+        display: flex;
+    }
+    .darkmainContainer{
+
+        width: 100vw;
+    }
+ 
+    .darkprofileSection{
+        width: 100%;
+        height: 114vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .darkpersonTextarea{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        height: 80px;
+        display: flex;
+    }
+.darkusername{
+    line-height: 22px;
+    height:79px;
+}
+
+
+    .darklinksSection{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .darkleftSide{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 220px;
+    }
+    .darkrightSide{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 190px;
+    }
+  
+}
