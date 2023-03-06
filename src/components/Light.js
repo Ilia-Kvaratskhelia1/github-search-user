@@ -16,10 +16,9 @@ function Light(props) {
           <div className="headerSection">
             <h3 className="logo">devfinder</h3>
             <div className="darkMode">
-              <p className="modeChanger" onClick={color}>
-                Dark
-              </p>
+              <p className="modeChanger">Light</p>
               <svg
+                onClick={color}
                 className="moon"
                 width="20"
                 height="20"
@@ -97,7 +96,7 @@ function Light(props) {
                       fill="#4B6A9B"
                     />
                   </svg>
-                  <p>{props.location}</p>
+                  <p style={{color:props.location ? "#4B6A9B" : "gray"}}>{props.location ? props.location : "Not Avalible"}</p>
                 </div>
                 <div className="iconLink control">
                   <svg
@@ -116,7 +115,7 @@ function Light(props) {
                     />
                   </svg>
 
-                  <a href={props.blog}>{props.blog}</a>
+                  <a href={props.blog} style={{color:props.blog ? "#4B6A9B" : "gray"}}>{props.blog ? props.blog : "Not Avalible"}</a>
                 </div>
               </div>
 
@@ -134,7 +133,7 @@ function Light(props) {
                       fill="#4B6A9B"
                     />
                   </svg>
-                  <p>{props.twitter}</p>
+                  <p style={{color:props.twitter ? "#4B6A9B" : "gray"}}> {props.twitter ? props.twitter : "Not Avalible"}</p>
                 </div>
                 <div className="githubSection">
                   <svg

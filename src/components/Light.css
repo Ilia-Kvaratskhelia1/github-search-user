@@ -18,6 +18,7 @@ justify-content: center;
 
 }
 
+
 .childContainer{
     width: 95%;
     height: 90vh;
@@ -191,7 +192,7 @@ font-family: 'Space Mono', monospace;
 }
 .personTextarea h1 p{
     font-size: 1.1rem;
-    color: #60ABFF;
+    color: ;
     font-weight: 100;
     font-family: 'Albert Sans', sans-serif;
     font-family: 'Space Mono', monospace;

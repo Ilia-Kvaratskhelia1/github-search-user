@@ -13,10 +13,9 @@ function Dark(props) {
           <div className="darkheaderSection">
             <h3 className="darklogo">devfinder</h3>
             <div className="darkdarkMode">
-              <p className="darkmodeChanger" onClick={light}>
-                Dark
-              </p>
+              <p className="darkmodeChanger">Dark</p>
               <svg
+                onClick={light}
                 className="darkmoon"
                 width="20"
                 height="20"
@@ -127,7 +126,9 @@ function Dark(props) {
                       fill="#4B6A9B"
                     />
                   </svg>
-                  <p>{props.location}</p>
+                  <p style={{ color: props.location ? "white" : "gray" }}>
+                    {props.location ? props.location : "Not Avalible"}
+                  </p>
                 </div>
                 <div className="darkiconLink control">
                   <svg
@@ -146,7 +147,12 @@ function Dark(props) {
                     />
                   </svg>
 
-                  <a href={props.blog}>{props.blog}</a>
+                  <a
+                    href={props.blog}
+                    style={{ color: props.blog ? "white" : "gray" }}
+                  >
+                    {props.blog ? props.blog : "Not Avalible"}
+                  </a>
                 </div>
               </div>
 
@@ -164,7 +170,10 @@ function Dark(props) {
                       fill="#4B6A9B"
                     />
                   </svg>
-                  <p>{props.twitter}</p>
+                  <p style={{ color: props.twitter ? "white" : "#4B6A9B" }}>
+                    {" "}
+                    {props.twitter ? props.twitter : "Not Avalible"}
+                  </p>
                 </div>
                 <div className="darkgithubSection">
                   <svg
